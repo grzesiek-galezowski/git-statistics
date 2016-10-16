@@ -10,11 +10,11 @@ using NGit.Storage.File;
 
 namespace GitPlayground
 {
-  class StatisticsCrawler
+  public class GitRepositoryStatistics
   {
     private readonly string _repoPath;
 
-    public StatisticsCrawler(string repoPath)
+    public GitRepositoryStatistics(string repoPath)
     {
       _repoPath = repoPath;
       Statistics = new Statistics(Git.Open(repoPath));
@@ -22,7 +22,7 @@ namespace GitPlayground
 
     private Statistics Statistics { get; }
 
-    public void Start()
+    public void Gather()
     {
       foreach (var repoEntry in RepoEntry.AllRepoEntries(_repoPath))
       {

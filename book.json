@@ -1,5 +1,4 @@
 {
-// Global configuration for plugins
     "pluginsConfig": {
         "fontSettings": {
             "theme": "sepia", "night" or "white",

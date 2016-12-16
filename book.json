@@ -1,9 +1,11 @@
 {
+// Global configuration for plugins
     "pluginsConfig": {
-        "fontsettings": {
-          "theme": "white",
-          "family": "serif",
-          "size": 2  
+        "fontSettings": {
+            "theme": "sepia", "night" or "white",
+            "family": "serif" or "sans",
+            "size": 1 to 4
         }
-     }
+    }
 }
+

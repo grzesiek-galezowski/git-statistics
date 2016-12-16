@@ -1,9 +1,10 @@
 {
     "pluginsConfig": {
         "fontsettings": {
-            "theme": 'white',
-            "family": 'serif',
-            "size": 2
+          "theme": 'white',
+          "family": 'serif',
+          "size": 2
         }
-    }
+     }
+           }
 }
